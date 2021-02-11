@@ -34,7 +34,7 @@ section {
     background-color: var(--color5);
     width: 1000px;
     max-width: 80%;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,7 @@ section {
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
 }
+
 
 header {
     display: flex;
